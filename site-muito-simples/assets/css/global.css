@@ -1,0 +1,9 @@
+.card{}
+.card .img-card{}
+.card .desc{}
+.card .link{}
+
+strong{
+    color: #495057;
+    font-size: 24px;
+}
