@@ -79,7 +79,7 @@ footer h2{
 
 @media (max-width: 600px) {
     header{
-        width:  100%;
+        width:  370px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -100,8 +100,18 @@ footer h2{
     }
 
     header .name{
-        height: 344px;
+        height: 150px;
         border-radius: 8px;
         width: auto;
+    }
+
+    main{
+        width: 370px;
+    }
+
+    main .projects .cards{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
