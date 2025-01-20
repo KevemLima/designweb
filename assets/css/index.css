@@ -25,7 +25,7 @@ header .perfil{
 header .perfil .img-perfil{
     height: 260px;
     width: 369px;
-    background-image: url(/designweb/portifolio/assets/img/imagem-perfil.jpeg);
+    background-image: url(/designweb/assets/img/imagem-perfil.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -93,7 +93,7 @@ footer h2{
     header .perfil .img-perfil{
         height: 264px;
         width:  100%;
-        background-image: url(/designweb/portifolio/assets/img/imagem-perfil.jpeg);
+        background-image: url(/designweb/assets/img/imagem-perfil.jpeg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
