@@ -107,6 +107,10 @@ footer h2{
         width: 370px;
     }
 
+    main h2{
+        text-align: center;
+    }
+
     main .projects .cards{
         flex-direction: column;
         justify-content: center;
