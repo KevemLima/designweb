@@ -85,12 +85,12 @@ footer h2{
 
     header .perfil{
         height: 344px;
-        width:  100%;
+        width:  90%;
     }
 
     header .perfil .img-perfil{
         height: 264px;
-        width:  95%;
+        width:  100%;
         background-image: url(../../assets/img/imagem-perfil.jpeg);
         background-position: center;
         background-size: cover;
@@ -100,7 +100,7 @@ footer h2{
     header .name{
         height: 150px;
         border-radius: 8px;
-        width: auto;
+        width: 90%;
     }
 
     main{
