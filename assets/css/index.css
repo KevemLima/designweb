@@ -85,7 +85,7 @@ footer h2{
 
     header .perfil{
         height: 344px;
-        width:  90%;
+        width:  100%;
     }
 
     header .perfil .img-perfil{
@@ -100,7 +100,7 @@ footer h2{
     header .name{
         height: 150px;
         border-radius: 8px;
-        width: 90%;
+        width: auto;
     }
 
     main{
