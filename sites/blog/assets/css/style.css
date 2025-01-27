@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+body{
+    font-family: "Lato", serif;
+}
+header{
+    max-height: 100px;
+    background: #C11616;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+header .logo{
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .barradebusca{
+    align-content: center;
+    margin: 0px 50px 0px 300px
+}
+header .barradebusca input{
+    width: 280px;
+}
+header .links{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .bar{
+    width: 1px;
+    height: 60px;
+    background: white;
+}
+
+header input{
+    border: none;
+    border-bottom: 1px solid white;
+    background: #C11616;
+    outline: none;
+}
+
+header a{
+    color: white;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+}
+section div{
+    margin-top: 60px;
+    max-width: 60%;
+}
+section div h1{
+    font-size: 40px;
+    font-weight: 800;
+}
