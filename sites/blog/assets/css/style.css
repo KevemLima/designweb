@@ -49,42 +49,35 @@ header a{
 section{
     display: flex;
     justify-content: center;
-    position: static;
 }
-section .container{
+section .artigo-container{
     margin-top: 60px;
     max-width: 40%;
-    position: fixed;
 }
-section .aspas{
-    margin-top: 60px;
-    position: relative;
-    right: 450px;
-}
-section .container .autor{
+section .artigo-container .autor{
     width: 100%;
     max-height: 40px;
     background: #EFF2F7;
     display: flex;
     align-items: center;
 }
-section .container .autor p{
+section .artigo-container .autor p{
     margin: 10px 30px 10px 50px;
     font-size: 16px;
 }
-section .container .autor a{
+section .artigo-container .autor a{
     color: #e05f5f;
     font-weight: 800;
 }
-section .container h1{
+section .artigo-container h1{
     font-size: 40px;
     font-weight: 800;
 }
-section .container p{
+section .artigo-container p{
     color: #707C8C;
     font-size: 20px;
 }
-section .container .ler-mais{
+section .artigo-container .ler-mais{
     margin: 50px 0px 50px 0px ;
     max-height: 32px;
     width: 220px;
@@ -95,34 +88,65 @@ section .container .ler-mais{
     justify-content: space-between;
     padding: 10px;
 }
-section .container .ler-mais img:hover{
+section .artigo-container .ler-mais img:hover{
     cursor: pointer;
 }
-section .container .categorias .barra-degrade{
+section .artigo-container .categorias .barra-degrade{
     width: 81px;
     height: 4px;
     background: rgb(0,0,0);
     background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 0%, rgba(255,193,193,1) 100%);
     border-radius: 25px;
 }
-section .container .categorias h2{
+section .artigo-container .categorias h2{
     font-weight: 400;
     color: #707C8C;
 }
-section .container .categorias .links{
+section .artigo-container .categorias .links{
     display: flex;
     justify-content: space-between;
 
 }
-section .container .categorias .links a{
+section .artigo-container .categorias .links a{
     border: 1px solid #e05f5f;
     padding: 6px 16px;
     text-decoration: none;
     color: #e05f5f;
 }
-section .container .categorias .todas-categorias{
+section .artigo-container .categorias .todas-categorias{
     margin-top: 20px;
     display: flex;
     justify-content: flex-end;
     color: #707C8C;
 }
+.galeria{width: 100%;}
+.galeria h2{color: #EB5151;}
+.galeria .galeria-container{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid red;
+}
+.galeria .galeria-fotos .fotos{
+    border: 1px solid red;
+    width: 50%;
+    height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.galeria .galeria-fotos .fotos div{height: 310px;}
+.galeria .galeria-videos .videos{
+    border: 1px solid red;
+    width: 50%;
+    height: 300px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+.galeria .galeria-videos .videos div{height: 310px;}
